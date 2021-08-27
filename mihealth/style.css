@@ -1,0 +1,133 @@
+/* Main page area*/
+#mainArea {
+  background-color: lightgrey ;
+}
+/* For all the text*/
+#miColor {
+  color: red;
+}
+#healthColor{
+  color: green;
+}
+.wText {
+  font-size: 180%;
+}
+
+/* Nav bar*/
+h1 {
+  font-size: 40px;
+}
+.healthM {
+  margin-left: 30px;
+}
+.wText{
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+ul {
+  list-style-type: none;
+}
+#navBar, #navBar ul {
+  display: flex;
+}
+#navBar {
+  justify-content: space-between;
+}
+#navBar li{
+  list-style: none;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+/* Images and body*/
+#mainArea {
+  display: flex; 
+  flex-direction: row;
+  padding: 20px
+}
+#beHealthy {
+  width: 25%;
+  margin-left: 4%;
+}
+
+.images{
+  width: 300px;
+  height: 500px;
+  margin-left: 20px; 
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 25px;
+}
+.white{
+  background-color: white;
+  font-size: 35px;
+  width: 80px;
+  height: 40px;
+}
+.green {
+  background-color: lightgreen;
+  font-size: 35px;
+  
+}
+/* use flex to display them like the images spread out and then use the position to move them */
+/* maybe make th epositions relative so that you can just move them across the image */
+/* use a fixed position for a nav bar to make it stick */
+.pos {
+  position: relative;
+}
+.freshFood {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+.picArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.downP {
+  /* top: 500px;
+  left: 200px; */
+}
+#frBreak {
+  position: absolute; 
+  bottom: 190px;
+  left: 666px;
+}
+ #frBreakfast {
+  position: absolute;  
+   bottom: 150px;
+  left: 615px;
+  
+ } 
+ #frl {
+  position: absolute; 
+   bottom: 190px;
+  left: 995px;
+ }
+ #frLunch {
+  position: absolute; 
+  bottom: 150px;
+  Left: 985px; 
+  
+ }
+ #frD {
+  position: absolute; 
+  bottom: 190px;
+  right: 40px; 
+  
+ }
+
+#frDinner {
+  position: absolute; 
+  bottom: 150px;
+  right: 40px;
+  
+}
+
+
+
